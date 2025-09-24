@@ -12,6 +12,9 @@ def first_item():
 @app.route('/last_item')
 def last_item():
     return todos[-1]
+@app.route('/about')
+def about():
+    return  "Hello World"
 
 
 if __name__ == '__main__':
